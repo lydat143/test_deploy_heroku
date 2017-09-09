@@ -5,6 +5,8 @@ import (
   "log"
   "net/http"
   "time"
+"github.com/gin-gonic/gin"
+	_ "github.com/heroku/x/hmetrics/onload"
 )
 
 type PageVariables struct {
